@@ -165,9 +165,10 @@ ul li a:hover {
     font-family: 'Roboto', sans-serif;
 }
 .divsec3 {
-    /* display: flex; */
+    display: flex;
     text-align: center;
     margin-top: 174px;
+    flex-direction: column;
     /* margin-left: 140px;
     margin-right: 140px; */
     padding-top: 100px;
@@ -193,7 +194,7 @@ ul li a:hover {
 .section3 {
     max-width: 1920px;
     width: 100%;
-    max-height: 983px;
+    /* max-height: 983px; */
     background-color: #F5F5F5;
 }
 /* section4 */
