@@ -34,7 +34,7 @@ ul li a {
     align-items: center;
     margin-left: 140px;
     margin-right: 140px;
-    max-width: 1425px;
+    max-width: 1920px;
     width: 100%;
     justify-content: space-between;
     position: fixed;
@@ -108,9 +108,9 @@ ul li a:hover {
     margin-left: 140px;
     /* margin-right: 140px; */
     margin-top: 120px;
-    max-width: 1288px;
+    max-width: 1920px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .leftblock {
@@ -168,9 +168,12 @@ ul li a:hover {
     /* display: flex; */
     text-align: center;
     margin-top: 174px;
-    margin-left: 140px;
-    margin-right: 140px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
     padding-top: 100px;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
 }
 .firstblock {
     display: flex;
@@ -322,7 +325,8 @@ ul li a:hover {
     display: flex;
     max-width: 1920px;
     width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    /* margin: 0 auto; */
     /* justify-content: center; */
     /* margin-left: 140px;
     margin-right: 140px; */
@@ -372,11 +376,12 @@ ul li a:hover {
 .divsec7 {
     display: flex;
     max-width: 1920px;
-    /* width: 100%; ამის გამო აჩენს სქროლს */
-    margin: 0 auto;
-    margin-left: 200px;
-    margin-right: 140px;
+    width: 100%; 
+    /* margin: 0 auto; */
+    /* margin-left: 200px;
+    margin-right: 140px; */
     align-items: center;
+    justify-content: center;
 }
 .form-div {
     display: flex;
