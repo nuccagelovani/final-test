@@ -15,6 +15,9 @@
     background-repeat: no-repeat;
 
 }
+.fa-bars {
+    color: white;
+}
 .faxdiv {
     display: flex;
     max-width: 400px;
@@ -449,4 +452,10 @@ footer {
 .foot-p {
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
+}
+.font-icon {
+    display: none;
+    position: absolute;
+    font-size: 32px; 
+    margin-left: 80%;
 }
