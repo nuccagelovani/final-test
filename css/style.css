@@ -2,7 +2,7 @@
     background-image: url(../images/slider.jpg);
     /* max-width: 1920px; */
     width: 100%;
-    height: 1026px;
+    height: 900px;
     position: relative;
     display: flex;
     color: #fff;
@@ -11,6 +11,9 @@
     padding-right: 140px;
     padding-top: 20px;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 .faxdiv {
     display: flex;
@@ -65,10 +68,10 @@ h4 {
 }
 .div3 {
     position: absolute;
-    top: 200px;
+    top: 300px;
     color: #fff;
     margin-left: 140px;
-    margin-top: 204px;
+    /* margin-top: 204px; */
 }
 h1 {
     font-size: 64px;
@@ -77,7 +80,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 .texth2 {
-    font-size: 54px;
+    font-size: 48px;
     margin-bottom: 15px;
 
 }
@@ -105,18 +108,15 @@ ul li a:hover {
 /* section2 */
 .block {
     display: flex;
-    margin-left: 140px;
-    /* margin-right: 140px; */
-    margin-top: 120px;
-    max-width: 1920px;
-    width: 100%;
+    max-width: 1700px;
+    width: 100%; 
     justify-content: center;
-    align-items: center;
+    margin-top: 10px;
 }
 .leftblock {
-    max-width: 664px;
+    max-width: 568px;
     width: 100%;
-    margin-right: 140px;
+    /* margin-right: 140px; */
     margin-left: 20px;
 }
 .text3 {
@@ -153,8 +153,14 @@ ul li a:hover {
 .img3 {
     margin-top: 55px;
 }
+.manphoto {
+    max-width: 664px;
+    width: 100%;
+}
 .rightblock {
     box-shadow: -20px -20px 15px 0px #E3BC92;
+    max-width: 664px;
+    width: 100%;
 }
 /* section3 */
 .textt {
@@ -169,22 +175,23 @@ ul li a:hover {
     text-align: center;
     margin-top: 174px;
     flex-direction: column;
-    /* margin-left: 140px;
-    margin-right: 140px; */
     padding-top: 100px;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     width: 100%;
-    justify-content: center;
+    align-items: center;
 }
 .firstblock {
     display: flex;
     margin-top: 93px;
     margin-bottom: 48px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
 }
 .secondblock {
     display: flex;
     margin-bottom: 122px;
     padding-bottom: 100px;
+    /* flex-wrap: wrap; */
 }
 .texth4 {
     margin-top: 25px;
@@ -223,6 +230,7 @@ ul li a:hover {
     color: #CF9455;
     font-size: 68px; 
     font-family: 'Roboto', sans-serif;
+    
 }
 .h55 {
     font-size: 24px;
@@ -231,9 +239,6 @@ ul li a:hover {
     font-family: 'Roboto', sans-serif;
 }
 /* section5 */
-.section5 {
-
-}
 .divsec5 {
     max-width: 1920px;
     width: 100%;
@@ -246,7 +251,7 @@ ul li a:hover {
 .litsec5 {
     max-width: 570px;
     width: 100%;
-    height: 450px;
+    height: 500px;
     background-color: #282E3F;
     color: #fff;
     display: flex;
@@ -313,7 +318,7 @@ ul li a:hover {
     margin-top: 140px;
 }
 .imgg {
-    max-width: 690px;
+    max-width: 550px;
     width: 100%;
 }
 .textsec6 {
@@ -324,13 +329,9 @@ ul li a:hover {
 }
 .divsec6 {
     display: flex;
-    max-width: 1920px;
+    max-width: 1600px;
     width: 100%;
     justify-content: center;
-    /* margin: 0 auto; */
-    /* justify-content: center; */
-    /* margin-left: 140px;
-    margin-right: 140px; */
 }
 .paragraph {
     max-width: 451px;
@@ -349,12 +350,6 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.div-block-left {
-    margin-left: 140px;
-}
-.text-block {
-    margin-right: 140px;
 }
 
 /* section7 */
@@ -419,7 +414,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #282E3F;
+    background-color:#212121;
     max-width: 1920px;
     width: 100%;
 }
@@ -437,6 +432,7 @@ footer {
     margin-bottom: 50px;
     margin-left: 140px;
     margin-right: 140px;
+    padding-top: 50px;
 }
 .second-block {
     color: #fff;

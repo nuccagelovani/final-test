@@ -1,3 +1,129 @@
-@media (max-width: 1920px) {
-    
+@media (max-width: 1200px) {
+    .div3 {
+        top: 200px;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .secondblock {
+        flex-direction: column;
+    }
+    .firstblock {
+        flex-direction: column;
+    }
+    .divicons {
+        margin-top: 30px;
+    }
+    .div4 {
+        flex-direction: column;
+    }
+    .div1div {
+        margin-top: 30px;
+    }
+    .divsec5 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .litsec5 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 500px;
+    }
+    .div95 {
+        margin-top: 10px;
+    }
+    .divmore {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightblock {
+        margin-bottom: 30px;
+    }
+    .leftblock {
+        text-align: center;
+    }
+    .litdiv1 {
+        margin: 0 auto;
+    }
+    .divsec6 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .full {
+        margin:  0 auto;
+    }
+    .text-block {
+        margin:  0 auto;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .texth2 {
+        font-size: 18px;
+    }
+    .texts {
+        font-size: 12px;
+    }
+    .div1 {
+        height: 500px;
+    }
+}
+@media (max-width: 900px) {
+    .first-block-p {
+        display: none;
+    }
+    .foot-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div3 {
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .div2 {
+        margin-left: 10%;
+    }
+    .divicon {
+        display: none;
+    }
+    .faxdiv {
+        display: none;
+    }
+    .div1 {
+        margin-top: 20px;
+    }
+    .contdiv {
+        display: none;
+    }
+    .section1 {
+        top: 0;
+    }
+    .divsec7 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-left-sec7 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .form-div {
+        margin: 0 auto;
+    }
+    .apart-button {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .div1 {
+        height: 500px;
+        top: 0;
+        left: 0;
+    }
+
 }
